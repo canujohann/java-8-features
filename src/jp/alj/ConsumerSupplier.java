@@ -27,8 +27,8 @@ public class ConsumerSupplier {
 		
 	}
 
-	public static void printNames(String name) {
-	    System.out.println(name);
+	private static void printNames(Integer val) {
+			System.out.println(val);
 	}
 
 }
