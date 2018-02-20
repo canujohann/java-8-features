@@ -1,3 +1,104 @@
-# Java 8 features
+# Java 8
 
-todo
+# Make java great Again !
+
+With java 8, new features appear and transform the java language in a more flexible and functional langugage.
+
+> Java is an old language, it sucks ! 
+
+No,no and no. Java is now functionnal enough to satisfy the ruby or nodejs developers and the learning curve is smooth/flat.
+
+- Anonymous class/functions [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/LambdaDemonstration.java)
+- lambda [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/LambdaDemonstration.java)
+- Collection and stream [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/CollectionDemonstration.java)
+
+And if you think it's not enough (what??), new languages based on the JVM (and fully compatible with java libraries) can solve this problem ! Here are the hotest langugages (or at least my favorites ):
+
+| langage        | logo           |  Few words |
+| :------------- |:-------------| :-----|
+| scala     | ![scala](https://upload.wikimedia.org/wikipedia/en/8/85/Scala_logo.png)  |  functional programming, static type system, concise|
+| groovy      | ![groovy](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/220px-Groovy-logo.svg.png)      |   powerful, optionally typed and dynamic. Used by Graddle, ...   |
+| kotlin | ![kotlin](https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png)      | Consise, safe, interoperable, tool-friendly    |
+
+
+
+> What is the added value compared to the standart java language ?
+
+#### Bye bye getter/setter
+
+Create a POJO with getters, setters, equals(), hashCode(), toString() and copy() in a single line: 
+
+```kotlin
+data class Customer(val name: String, val email: String, val company: String)
+```
+
+#### Singleton
+
+Create singleton :
+
+```kotlin
+object ThisIsASingleton {
+    val companyName: String = "JetBrains"
+}
+```
+
+#### Fu**** NullPointerExceptions
+
+Get rid of those pesky NullPointerExceptions with optional parameter
+
+```kotlin
+val name: String? = null
+name?.let { 
+	println(name) 
+}
+
+//elvis operator
+val l = b?.length ?: -1
+```
+
+#### Small functions in one line
+
+```kotlin
+Function with an expression body and inferred return type:
+```
+
+#### String templates
+
+```kotlin
+val s2 = "${s1.replace("is", "was")}, but now is $a"
+```
+
+#### If as an expression
+
+```kotlin
+if as an expression
+```
+
+#### Ranges
+
+```kotlin
+for (i in 1..100) { ... }  // closed range: includes 100
+for (i in 1 until 100) { ... } // half-open range: does not include 100
+for (x in 2..10 step 2) { ... }
+for (x in 10 downTo 1) { ... }
+if (x in 1..10) { ... }
+```
+
+#### Default values for function parameters
+
+```kotlin
+fun foo(a: Int = 0, b: String = "") { ... }
+```
+
+#### Extension Functions
+
+> my favorite one
+
+```kotlin
+fun String.addHello(): String{ 
+	"Hello" + this
+}
+println("Franck".addHello()
+```
+
+
