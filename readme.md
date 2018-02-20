@@ -20,9 +20,9 @@ And if you think it's not enough (what??), new languages based on the JVM (and f
 | groovy      | ![groovy](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/220px-Groovy-logo.svg.png)      |   powerful, optionally typed and dynamic. Used by Graddle, ...   |
 | kotlin | ![kotlin](https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png)      | Consise, safe, interoperable, tool-friendly    |
 
+## Added value of JVM based languages
 
-
-> What is the added value compared to the standart java language ?
+> all the samples below are based on the kotlin language
 
 #### Bye bye getter/setter
 
