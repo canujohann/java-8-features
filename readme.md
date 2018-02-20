@@ -42,7 +42,7 @@ object ThisIsASingleton {
 }
 ```
 
-#### Fu**** NullPointerExceptions
+#### ****** NullPointerExceptions
 
 Get rid of those pesky NullPointerExceptions with optional parameter
 
