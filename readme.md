@@ -11,6 +11,7 @@ No,no and no. Java is now functionnal enough to satisfy the ruby or nodejs devel
 - Anonymous class/functions [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/LambdaDemonstration.java)
 - lambda [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/LambdaDemonstration.java)
 - Collection and stream [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/CollectionDemonstration.java)
+- Consumer Supplier [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/ConsumerSupplier.java)
 
 And if you think it's not enough (what??), new languages based on the JVM (and fully compatible with java libraries) can solve this problem ! Here are the hotest langugages (or at least my favorites ):
 
@@ -20,9 +21,9 @@ And if you think it's not enough (what??), new languages based on the JVM (and f
 | groovy      | ![groovy](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/220px-Groovy-logo.svg.png)      |   powerful, optionally typed and dynamic. Used by Graddle, ...   |
 | kotlin | ![kotlin](https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png)      | Consise, safe, interoperable, tool-friendly    |
 
-## Added value of JVM based languages
 
-> all the samples below are based on the kotlin language
+
+> What is the added value compared to the standart java language ?
 
 #### Bye bye getter/setter
 
@@ -42,7 +43,7 @@ object ThisIsASingleton {
 }
 ```
 
-#### ****** NullPointerExceptions
+#### Fu**** NullPointerExceptions
 
 Get rid of those pesky NullPointerExceptions with optional parameter
 
