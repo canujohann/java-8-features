@@ -52,26 +52,37 @@ name?.let {
 	println(name) 
 }
 
-//elvis operator
+//elvis operator is also available
 val l = b?.length ?: -1
 ```
 
 #### Small functions in one line
 
 ```kotlin
-Function with an expression body and inferred return type:
+fun compare(a: String, b: String): Boolean = a.length < b.length
+```
+
+#### Higher-Order Functions
+
+>  function that takes functions as parameters
+
+```kotlin
+fun <T> ArrayList<T>.filterOnCondition(condition: (T) -> Boolean): ArrayList<T>{
+    val result = arrayListOf<T>()
+    for (item in this){
+        if (condition(item)){
+            result.add(item)
+        }
+    }
+
+    return result
+}
 ```
 
 #### String templates
 
 ```kotlin
 val s2 = "${s1.replace("is", "was")}, but now is $a"
-```
-
-#### If as an expression
-
-```kotlin
-if as an expression
 ```
 
 #### Ranges
