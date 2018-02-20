@@ -13,7 +13,7 @@ public class LambdaDemonstration {
 		myRunnableInstance1.run();
 		
 		//////////////////////////////////////////////////////
-		// Do it with an anonymous function 
+		// Do it with an anonymous class 
 		//////////////////////////////////////////////////////
 		Runnable myRunnableInstance2 = new Runnable(){
 		  @Override
