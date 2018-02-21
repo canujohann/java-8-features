@@ -1,6 +1,6 @@
-# Java 8
+# Java
 
-# Make java great Again !
+## Make java great Again !
 
 With java 8, new features appear and transform the java language in a more flexible and functional langugage.
 
@@ -23,7 +23,9 @@ And if you think it's not enough (what??), new languages based on the JVM (and f
 
 
 
-> What is the added value compared to the standart java language ?
+## Added value of JBM based languages
+
+> All the examples below are written in koltin
 
 #### Bye bye getter/setter
 
@@ -43,7 +45,7 @@ object ThisIsASingleton {
 }
 ```
 
-#### Fu**** NullPointerExceptions
+#### ****** NullPointerExceptions
 
 Get rid of those pesky NullPointerExceptions with optional parameter
 
