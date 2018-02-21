@@ -103,6 +103,11 @@ if (x in 1..10) { ... }
 ```kotlin
 fun foo(a: Int = 0, b: String = "") { ... }
 ```
+#### non-typed variables
+
+```kotlin
+val myInt = 5
+```
 
 #### Extension Functions
 
