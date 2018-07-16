@@ -2,7 +2,7 @@
 
 ## Make java great Again !
 
-With java 8, new features appear and transform the java language in a more flexible and functional langugage.
+With java 8/9/10, new features appear and transform the java language in a more flexible and functional langugage.
 
 > Java is an old language, it sucks ! 
 
@@ -25,7 +25,7 @@ And if you think it's not enough (what??), new languages based on the JVM (and f
 
 
 
-## Added value of JBM based languages
+## Added value of JVM based languages
 
 > All the examples below are written in koltin
 
@@ -37,6 +37,8 @@ Create a POJO with getters, setters, equals(), hashCode(), toString() and copy()
 data class Customer(val name: String, val email: String, val company: String)
 ```
 
+> You can also use the lambok library in java if you don't want to generate manually your getters/setters.
+
 #### Singleton
 
 Create singleton :
@@ -47,7 +49,7 @@ object ThisIsASingleton {
 }
 ```
 
-#### ****** NullPointerExceptions
+#### NullPointerExceptions
 
 Get rid of those pesky NullPointerExceptions with optional parameter
 
@@ -60,6 +62,8 @@ name?.let {
 //elvis operator is also available
 val l = b?.length ?: -1
 ```
+
+> Can also use the 'Optional' class in java 8.
 
 #### Small functions in one line
 
@@ -110,6 +114,8 @@ fun foo(a: Int = 0, b: String = "") { ... }
 ```kotlin
 val myInt = 5
 ```
+
+> see 'var' keyword from java 10
 
 #### Extension Functions
 
