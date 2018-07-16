@@ -12,7 +12,7 @@ No,no and no. Java is now functionnal enough to satisfy the ruby or nodejs devel
 - lambda and fonctionnal interface [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/LambdaDemonstration.java)
 - Collection and stream [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/CollectionDemonstration.java)
 - Consumer Supplier [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/ConsumerSupplier.java)
-- Interface with default and static methods [to be done](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/ConsumerSupplier.java)
+- Interface with default and static methods [to be done](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/MyInterfaceWithDefaultMethod.java)
 - *var* keyword [here](https://github.com/canujohann/java-8-features/blob/master/src/jp/alj/VarKeyword.java)
 
 And if you think it's not enough (what??), new languages based on the JVM (and fully compatible with java libraries) can solve this problem ! Here are the hotest langugages (or at least my favorites ):
